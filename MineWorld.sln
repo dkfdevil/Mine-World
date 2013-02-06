@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineWorldClient", "MineWorldClient\MineWorldClient\MineWorldClient.csproj", "{F7B032E7-E9C8-4E9A-8077-9B3CA75F6C47}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7709499-A2BB-4348-83BB-E29AAEBF9F48} = {E7709499-A2BB-4348-83BB-E29AAEBF9F48}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineWorldClientContent", "MineWorldClient\MineWorldClientContent\MineWorldClientContent.contentproj", "{1FA636B6-B62B-4FBC-9120-A8C3BAECEBF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineWorldServer", "MineWorldServer\MineWorldServer.csproj", "{BE16AE57-D126-42CC-B485-CF4EEBF3B129}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7709499-A2BB-4348-83BB-E29AAEBF9F48} = {E7709499-A2BB-4348-83BB-E29AAEBF9F48}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineWorldData", "MineWorldData\MineWorldData.csproj", "{E7709499-A2BB-4348-83BB-E29AAEBF9F48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7B032E7-E9C8-4E9A-8077-9B3CA75F6C47}.Debug|x86.ActiveCfg = Debug|x86
+		{F7B032E7-E9C8-4E9A-8077-9B3CA75F6C47}.Debug|x86.Build.0 = Debug|x86
+		{F7B032E7-E9C8-4E9A-8077-9B3CA75F6C47}.Release|x86.ActiveCfg = Release|x86
+		{F7B032E7-E9C8-4E9A-8077-9B3CA75F6C47}.Release|x86.Build.0 = Release|x86
+		{1FA636B6-B62B-4FBC-9120-A8C3BAECEBF0}.Debug|x86.ActiveCfg = Debug|x86
+		{1FA636B6-B62B-4FBC-9120-A8C3BAECEBF0}.Release|x86.ActiveCfg = Release|x86
+		{BE16AE57-D126-42CC-B485-CF4EEBF3B129}.Debug|x86.ActiveCfg = Debug|x86
+		{BE16AE57-D126-42CC-B485-CF4EEBF3B129}.Debug|x86.Build.0 = Debug|x86
+		{BE16AE57-D126-42CC-B485-CF4EEBF3B129}.Release|x86.ActiveCfg = Release|x86
+		{BE16AE57-D126-42CC-B485-CF4EEBF3B129}.Release|x86.Build.0 = Release|x86
+		{E7709499-A2BB-4348-83BB-E29AAEBF9F48}.Debug|x86.ActiveCfg = Debug|x86
+		{E7709499-A2BB-4348-83BB-E29AAEBF9F48}.Debug|x86.Build.0 = Debug|x86
+		{E7709499-A2BB-4348-83BB-E29AAEBF9F48}.Release|x86.ActiveCfg = Release|x86
+		{E7709499-A2BB-4348-83BB-E29AAEBF9F48}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
